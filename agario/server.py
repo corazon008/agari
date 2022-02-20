@@ -6,7 +6,7 @@ from objects import Players, Foods
 import pygame
 import os
 
-server = socket.gethostbyname(socket.gethostname())
+server = 'https://agario-mp-game.herokuapp.com'
 port = 5555
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
