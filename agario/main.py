@@ -46,7 +46,7 @@ def redrawWindow(win, objects, player):
 def main():
     run = True
     clock = pygame.time.Clock()
-    n = Network('192.168.1.83')
+    n = Network('https://agario-mp-game.herokuapp.com')
     player = n.getP()
 
     while run:
